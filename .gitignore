@@ -1,0 +1,10 @@
+CMakeCache.txt
+*CMakeFiles/*
+*MakeFile*
+lib/*
+sample_ints
+*.cmake
+Testing/*
+_deps/*
+tests/unit_tests
+tests/cmake_test_*.json
