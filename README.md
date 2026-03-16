@@ -1,8 +1,11 @@
 # Output unique random ints
 
-Trying for an answer for "Programming Pearls" 1.6 Problems 4.
+Trying for an answer for "Programming Pearls" 1.6 Problems 4, writing a program
+to output random ints (without replacement).
 
 ## Build
+
+This is using CMake for driving builds.
 
 ```
 cmake .
@@ -43,4 +46,9 @@ After building:
 ctest --output-on-failure
 ```
 
+## Acknowledgments
+
 Code was formatted with clang-format.
+
+The example CMake projects at https://github.com/ttroy50/cmake-examples were
+helpful. Thank you!
